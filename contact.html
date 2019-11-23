@@ -1,16 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-
-    <title>portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-   <!-- <style>
- *{box-sizing: border-box;}
-        body {font-family: Arial, Helvetica, sans-serif;}
-        
-        input[type=text], select, textarea
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jyochsna Gongal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--style>
+    *{
+        box-sizing: border-box;
+    }
+    input[type=text], select, textarea
          {
   width: 100%;
   padding: 12px;
@@ -24,12 +26,10 @@
   
         
 
-        .container{border-radius: 10px;
-            background-color:#f2f2f2;
-            padding:20px;
+     
         
-        }
-        input[type=submit] {
+        
+        input[type=submit]{
   background-color:cadetblue;
   color: white;
   padding: 12px 20px;
@@ -40,49 +40,41 @@
 input[type=submit]:hover { background-color: rgb(34, 231, 16);}
 
     
-    </style -->
+    
+
+    
+    
+    </style-->
 </head>
 
 <body>
-<div class="wrapper">
-<div id="header">
-    <h1>Your Name</h1>
-</div >
+    <div class="wrapper">
+        <div class="top">
 
-<nav>
-     <ul>
-         <li><a href="about.html" >About</a></li>
-         <li><a href="Portfolio.html">Portfolio</a></li>
-         <li><a href="contact.html">Contact</a></li>
-     </ul>
-
-    </nav>
-    
-        <h2>Contact</h2>
-      <div class="container">
-  <form action="/action_page.php">
-    <label for="name">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="">
-    <label for="email">Email</label>
-    <input type="text" id="email" email="emailaddress" placeholder="">
-    <label for="message">Message</label>
-    <textarea id="message" name="subject"
-     placeholder=""
-     style="height:200px"></textarea>  
-    
- 
+            <nav>
+                <div class="name">Jyochsna Gongal</div>
+                <a href="index.html" target="_self" class="list">About</a>
+                <a href="portfolio.html" target="_self" class="list">Portfolio</a>
+                <a href="contact.html" target="_self" class="list">Contact</a>
+            </nav>
+            
         
-   
-       <!--- <div>  Name: <input type="text" name="Name" value="" ></div>
-         <div> Email:<input type="text" jpt="email" value="" ></div>
-         <div>Message:<textarea></textarea></div -->
-         <input type="submit" value="submit">
-        </form>
-    </div>
-          
-<footer>Copyright2019</footer>
-</div>
-
-</body>
-
-</html>
+        <section class="contact">
+                <h1>Contact</h1>
+    <form action="mailto:jyochsnagongal@gmail.com">
+      <label for="name">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="">
+      <label for="email">Email</label>
+      <input type="text" id="email" email="emailaddress" placeholder="">
+      <label for="message">Message</label>
+      <textarea id="message" name="subject"
+       placeholder=""
+       style="height:200px"></textarea>  
+      
+    <input type="submit" value="submit">
+          </form>
+      </section>
+      </div>
+      <footer>copyright2019</footer>
+    </body>
+    </html>
