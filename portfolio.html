@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,15 +13,23 @@
             box-sizing: border-box;
         }
 
-      .box #img1 {
-            position: relative;
-            height: 175px;
-            width: 200px;
-            margin: 10px 10px 10px 20px;
-            float: left;
+        .portfoliocontent {
+            max-width: 960px;
+            border: 1px solid black;
+            padding: 30px;
+
         }
 
-        .box #img1 #HM {
+        .img-box {
+            position: relative;
+
+            width: 300px;
+            margin: 10px 10px 10px 20px;
+            float: left;
+            overflow: auto;
+        }
+
+        /* .img-box #HM {
             height: 30px;
             position: absolute;
             top: 59%;
@@ -30,11 +39,63 @@
             background-color: #4aaaa5;
             width: 200px;
             text-align: center;
-            padding: 10px 0;
+            padding: 10px 0; 
+
+        }*/
+        #image1 {
+            position: relative;
+            width: 200px;
+            height: 175px;
+            background-image: url(assets/image/image1.jpg);
+        }
+
+        #image2 {
+            position: relative;
+            width: 200px;
+            height: 175px;
+            background-image: url(assets/image/image2.jpg);
+        }
+
+        #image3 {
+            position: relative;
+            width: 200px;
+            height: 175px;
+            background-image: url(assets/image/image3.jpg);
+        }
+
+        #image4 {
+            position: relative;
+            width: 200px;
+            height: 175px;
+            background-image: url(assets/image/image4.jpg);
+        }
+
+        #image5 {
+            position: relative;
+            width: 200px;
+            height: 175px;
+            background-image: url(assets/image/image5.jpg);
 
         }
 
-      
+        .imagetext {
+
+            width: 90%;
+            position: absolute;
+            bottom: 10px;
+            background: teal;
+            color: white;
+            padding: 5%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        /*table{
+     position: relative;
+     padding: 30px;
+ } */
     </style>
 </head>
 
@@ -51,35 +112,50 @@
                 <a href="contact.html" target="_self" class="list">Contact</a>
             </nav>
             <div class="box clearfix">
+
                 <h1>Portfolio</h1>
-                <div id="img-box1">
-                    <a href="#"><img src="assets/image/image1.jpg" alt="1">
-                        <div id="hm">Hangman</div>
-                    </a>
+               
+                <table>
+                    <tr>
+                        <th>
+                            <div id="image1">
+                                <p class="imagetext">Hangman</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div id="image2">
+                                <p class="imagetext">RPG game</p>
+                            </div>
+                        </th>
+
+                    </tr>
+                    <tr>
+                        <th>
+                            <div id="image3">
+                                <p class="imagetext">Hangman</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div id="image4">
+                                <p class="imagetext">RPG game</p>
+                            </div>
+                        </th>
+
+                    </tr>
+                    <tr>
+                        <th>
+                            <div id="image5">
+                                <p class="imagetext">Hangman</p>
+                            </div>
+                        </th>
+                        <th> </th>
+
+                    </tr>
+
+                </table>
                 </div>
-                <div id="img-box2">
-                    <a href="#"><img src="assets/image/image2.jpg" alt="2">
-                        <div id="rpg">RPG Game</div>
-                    </a>
-                </div>
-                <div id="img-box3">
-                    <a href="#"><img src="assets/image/image3.jpg" alt="3">
-                        <div id="tg">Trivia Game</div>
-                    </a>
-                </div>
-                <div id="img-box4">
-                    <a href="#"><img src="assets/image/image4.jpg" alt="4">
-                        <div id="riw">Rutgers Info Widget</div>
-                    </a>
-                </div>
-                <div id="img-box5">
-                    <a href="#"><img src="assets/image/image5.jpg" alt="5">
-                        <div id="rps">Rock Paper Scissors</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <footer> copyright2019</footer>
+                <footer> copyright2019</footer>
+
 </body>
 
 </html>
